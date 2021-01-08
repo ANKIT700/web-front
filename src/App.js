@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import RouteComp from './components/RouteComp';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <RouteComp/>
           Learn React
         </a>
       </header>
