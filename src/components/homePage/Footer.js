@@ -21,16 +21,6 @@ const styles = (theme) => ({
     padding: `${theme.spacing.unit * 6}px 0`,
   },
 });
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  },
-}));
 
 function Footer(props) {
   const { classes } = props;
