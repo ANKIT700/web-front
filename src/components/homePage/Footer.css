@@ -1,0 +1,51 @@
+.btn::before,
+a.button::before,
+input.button[type="submit"]::before,
+input.button[type="image"]::before,
+.btn-primary::before,
+.ninja-forms-form-wrap button.orbitmedia-nf-submit::before,
+.gform_wrapper .gform_footer input[type="submit"]::before,
+.news-form
+  .ninja-forms-cont
+  .ninja-forms-all-fields-wrap
+  .field-wrap.label-inside
+  + .submit-wrap
+  button::before,
+.post-type-archive-project .posts-header__filter .info--update-search::before,
+.btn-secondary::before,
+.pageblock.hasBackground .button::before,
+#newsletter-wa
+  .ninja-forms-cont
+  .ninja-forms-all-fields-wrap
+  .field-wrap.label-inside
+  + .submit-wrap
+  button::before {
+  background: #783628;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -150%;
+  top: 0;
+  z-index: -1;
+  -webkit-transform: skew(-20deg) scale(1.5);
+  transform: skew(-20deg) scale(1.5);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-airplane::after {
+  content: "\f1d8";
+  font-family: FontAwesome;
+  font-weight: 900;
+  display: inline-block;
+  margin-left: 10px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
