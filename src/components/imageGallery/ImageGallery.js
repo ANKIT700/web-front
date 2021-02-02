@@ -10,7 +10,7 @@ const useStyles = makeStyles({
 });
 
 export default function ImageGallery() {
-  const classes = useStyles();
+  // const classes = useStyles();
   const [state, setState] = useState({
     galleryData: [],
   });
@@ -41,22 +41,22 @@ export default function ImageGallery() {
     }
   };
 
-  const getGalleryData = () => {
-    let images = [];
-    images = state.galleryData.map((image) => {
-      let imagedata = {};
-      imagedata.src = image.largeImageURL;
-      imagedata.thumbnail = image.previewURL;
-      imagedata.thumbnailWidth = image.previewWidth;
-      imagedata.thumbnailHeight = image.previewHeight;
-      imagedata.isSelected = false;
-      imagedata.caption = image.tags;
-      images.push(imagedata);
+  // const getGalleryData = () => {
+  //   let images = [];
+  //   images = state.galleryData.map((image) => {
+  //     let imagedata = {};
+  //     imagedata.src = image.largeImageURL;
+  //     imagedata.thumbnail = image.previewURL;
+  //     imagedata.thumbnailWidth = image.previewWidth;
+  //     imagedata.thumbnailHeight = image.previewHeight;
+  //     imagedata.isSelected = false;
+  //     imagedata.caption = image.tags;
+  //     images.push(imagedata);
 
-      // return <img src={image.previewkURL} style={{width:"100%"}} />;
-    });
-    return images;
-  };
+  //     // return <img src={image.previewkURL} style={{width:"100%"}} />;
+  //   });
+  //   return images;
+  // };
   return (
     <div style={{ margin: "20px", height: "450px", overflowY: "scroll" }}>
       <Gallery images={state.galleryData} enableLightbox={true} />
