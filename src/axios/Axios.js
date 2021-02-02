@@ -1,8 +1,8 @@
 import axios from "axios";
-import { isUndefinedNullOrEmpty } from "../common/validation";
+// import { isUndefinedNullOrEmpty } from "../common/validation";
 
-const TOKEN_MISSING = "Identity token is missing";
-const TOKEN_INVALID = "Identity token is invalid";
+// const TOKEN_MISSING = "Identity token is missing";
+// const TOKEN_INVALID = "Identity token is invalid";
 
 export const api = {
   axios: axios.create(),
