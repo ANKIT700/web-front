@@ -36,16 +36,16 @@ function Footer(props) {
             {" "}
             <ul>
               <li>
-                <a>Cookie Consent</a>
+                <a href="">Cookie Consent</a>
               </li>
               <li>
-                <a>Privacy Policy </a>
+                <a href="">Privacy Policy </a>
               </li>
               <li>
-                <a>Sitemap</a>
+                <a href="">Sitemap</a>
               </li>
               <li>
-                <a>Support </a>
+                <a href="">Support </a>
               </li>
             </ul>
           </span>
