@@ -3,11 +3,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import { api as $ } from "../../axios/Axios";
 import Gallery from "react-grid-gallery";
 import "./Gallery.css";
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-});
+// const useStyles = makeStyles({
+//   root: {
+//     maxWidth: 345,
+//   },
+// });
 
 export default function ImageGallery() {
   // const classes = useStyles();
