@@ -1,0 +1,39 @@
+img {
+  height: 200px;
+  /* position: absolute;
+  top: 10px;
+  right: 180px; */
+}
+.left {
+  background-color: lightgreen;
+  width: 40vh;
+  /* height: 75%; */
+  height: 150vh;
+  padding-bottom: -38px;
+  margin-bottom: 150px;
+  font-family: "Sriracha", cursive;
+}
+.right {
+  overflow-y: scroll;
+  height: 530px;
+  width: 100%;
+  font-family: "Sriracha", cursive;
+}
+.content {
+  width: 400px;
+  display: inline-block;
+}
+.name {
+  font-size: x-large;
+}
+#sushi {
+  height: 650px;
+}
+#bbq {
+  height: 650px;
+}
+.homeSection {
+  margin-top: 75px;
+  position: fixed;
+  width: 100%;
+}

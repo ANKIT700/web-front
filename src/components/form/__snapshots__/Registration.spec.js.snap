@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Registration/> should render intitial layout 1`] = `
+Array [
+  <div>
+    <form
+      style={
+        Object {
+          "display": "inline-grid",
+        }
+      }
+    >
+      <label>
+        First Name:
+      </label>
+      <input
+        name="fname"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label>
+        Last Name:
+      </label>
+      <input
+        name="lname"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label>
+        Email:
+      </label>
+      <input
+        name="email"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label>
+        Mobile Number: 
+      </label>
+      <input
+        name="mobile"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label>
+        Password: 
+      </label>
+      <input
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <input
+        type="submit"
+      />
+    </form>
+  </div>,
+]
+`;

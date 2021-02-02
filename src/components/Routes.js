@@ -1,10 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import DraftEditor from "./editor/DraftEditor";
+import Login from "./form/Login";
 import Registration from "./form/Registration";
 import Footer from "./homePage/Footer";
 import Header from "./homePage/Header";
-import Gallery from "./imageGallery/Gallery";
+import Home from "./homePage/Home";
+import ImageGallery from "./imageGallery/ImageGallery";
 
 export default function App() {
   return (
@@ -17,11 +19,14 @@ export default function App() {
           <Route exact path="/editor">
             <DraftEditor />
           </Route>
+          <Route exact path="/registration">
+            <Registration />
+          </Route>
           <Route exact path="/gallery">
-            <Gallery />
+            <ImageGallery />
           </Route>
           <Route exact path="/form">
-            <Registration />
+            <Login />
           </Route>
           <Route path="/about">
             <About />
@@ -39,9 +44,7 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
+
 
 function About() {
   return <h2>About</h2>;

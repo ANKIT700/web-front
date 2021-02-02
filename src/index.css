@@ -5,8 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align:center;
+  overflow-y: hidden;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#89ffde+0,8f4bff+100 */
+  background: #89ffde; /* Old browsers */
+  background: -moz-linear-gradient(top, #89ffde 0%, #8f4bff 100%) no-repeat fixed; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #89ffde 0%,#8f4bff 100%) no-repeat fixed; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89ffde', endColorstr='#8f4bff',GradientType=0 ); /* IE6-9 */
 }
-
+ 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
